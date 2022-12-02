@@ -88,8 +88,6 @@ body {
 
 .nav .link {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     color: var(--title-color);
 }
 
@@ -99,9 +97,7 @@ body {
 }
 
 .contacts .link {
-    color: var(--page-color);
-    font-size: 16px;
-    line-height: 1.5;
+    color: inherit;
 }
 
 .contacts .link:hover,
