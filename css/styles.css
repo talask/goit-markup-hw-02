@@ -32,13 +32,18 @@ body {
 }
 
 /* ----- reset ----- */
-
+.btn,
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style-type: none;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
 }
 
 /* ----- common ----- */
@@ -121,7 +126,8 @@ body {
     line-height: 1.2;
 }
 
-/* -----benefits section ----- */
+/* ----- section ----- */
+.views .section-title,
 .team-list .section-title,
 .benefits-list .section-title {
     font-weight: 500;
@@ -139,24 +145,22 @@ body {
 }
 
 /* ----- Portfolio ----- */
+.filter-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--logo-web-color);
+    background-color: var(--logo-footer-color);
+}
 
+.filter-btn:active {
+    background-color: var(--logo-web-color);
+    color: var(--logo-footer-color);
+}
 
-/* NAVY  */
-/* color: #434455; 
+.views .link {
+    color: inherit; 
+}
 
-color: #2E2F42;
-
-color: #4D5AE5; //web
-color: #2E2F42; //studio header
-color: #F4F4FD; ////studio footer
-color: #E7E9FC; // footer p
-*/
-
-/* color: #FFFFFF; hero */
-
-/* color: #2E2F42; section 1, 2, 3 h
-color: #434455; section 1, 3 p */
-
-
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
