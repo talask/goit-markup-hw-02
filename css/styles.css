@@ -16,7 +16,8 @@
     --logo-web-color: #4D5AE5;
     --logo-header-color: #2E2F42;
     --logo-footer-color:  #F4F4FD;
-    --footer-descr-color:  #E7E9FC;
+    --footer-descr-color:  #E7E9FC; 
+    --footer-hero-color: #2E2F42;
   }
 
 body {
@@ -25,10 +26,7 @@ body {
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
-
-    /* background-color: var(--white-color); */
-    background-color: #999;
-
+    background-color: var(--white-color);
 }
 
 /* ----- reset ----- */
@@ -81,13 +79,8 @@ body {
     color: var(--footer-descr-color);
 }
 
-.logo-footer:hover,
-.logo:hover {
-    color: var(--logo-web-color);
-}
-
 .nav .link {
-    font-weight: 500;
+    font-weight: 600;
     color: var(--title-color);
 }
 
@@ -105,9 +98,19 @@ body {
     color: var(--white-color);
 }
 
+.footer-descr {
+    color: var(--footer-descr-color);
+}
+
 /* ----- main ----- */
 
 /* ----- hero ----- */
+
+.hero,
+.footer{
+    background-color: var(--footer-hero-color);
+}
+
 .hero-title {
     font-weight: 600;
     font-size: 56px;
@@ -126,7 +129,7 @@ body {
 .views .section-title,
 .team-list .section-title,
 .benefits-list .section-title {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
 }
