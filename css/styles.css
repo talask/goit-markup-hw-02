@@ -18,6 +18,7 @@
     --logo-footer-color:  #F4F4FD;
     --footer-descr-color:  #E7E9FC; 
     --footer-hero-color: #2E2F42;
+    --hero-click-color: #404BBF;
   }
 
 body {
@@ -79,23 +80,23 @@ body {
     color: var(--footer-descr-color);
 }
 
-.nav .link {
+.nav-link {
     font-weight: 600;
     color: var(--title-color);
 }
 
-.nav .link:hover,
-.nav .link:focus {
-    color: var(--white-color);
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--page-color);
 }
 
-.contacts .link {
+.contact-link {
     color: inherit;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-    color: var(--white-color);
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--logo-web-color);
 }
 
 .footer-descr {
@@ -120,11 +121,15 @@ body {
 
 .hero-btn {
     background-color: var(--logo-web-color);
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.2;
 }
 
+.hero-btn:active {
+    background-color: var(--hero-click-color);
+}
 /* ----- section ----- */
 .views .section-title,
 .team-list .section-title,
@@ -145,6 +150,7 @@ body {
 
 /* ----- Portfolio ----- */
 .filter-btn {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -156,7 +162,7 @@ body {
 
 .filter-btn:active {
     background-color: var(--logo-web-color);
-    color: var(--logo-footer-color);
+    color: var(--white-color);
 }
 
 .views .link {
