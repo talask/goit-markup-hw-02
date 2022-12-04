@@ -65,7 +65,7 @@ body {
     color: var(--title-color);
 }
 .logo {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height:1.3;
     letter-spacing: 0.03em;
@@ -160,6 +160,12 @@ body {
     background-color: var(--logo-footer-color);
 }
 
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--logo-web-color);
+    background-color: var(--logo-footer-color);
+}
+
 .filter-btn:active {
     background-color: var(--logo-web-color);
     color: var(--white-color);
@@ -169,8 +175,4 @@ body {
     color: inherit; 
 }
 
-.link  .views-text-hover {
-    background-color: var(--logo-web-color);
-    color: var(--logo-footer-color);
-}
 
